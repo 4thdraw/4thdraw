@@ -1,0 +1,19 @@
+// 자주 등장하는 스타일값
+$activeColor : #ea1616;
+$activeDeep : #7f0000;
+
+
+body{
+    *{
+        font-family: 'Montserrat', 'Pretendard', sans-serif;
+        font-weight: 400;
+    }
+    h1, h2, h3, h4, p, ul, li, dl, dt, dd{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        color: $activeColor
+    }
+}
